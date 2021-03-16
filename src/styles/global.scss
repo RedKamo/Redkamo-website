@@ -1,7 +1,18 @@
-$base-color: green;
-$color: rgba(black, 0.88);
+//-- import style components -- 
 
+//-- font --
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+$first-font: 'Archivo', sans-serif;
+
+//-- global variables--
+$red-color: #FF0032;
+$background-white: #F4F5F7;
+$background-dark: #212121;
+$dark-details: #2C2C2C;
+
+//-- general css styles --
 body{
-    background-color: $base-color;
-    color: $color;
+    background-color: $background-white;
+    color: $background-dark;
+    font-family: $first-font;
 }
