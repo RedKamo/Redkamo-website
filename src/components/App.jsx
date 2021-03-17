@@ -1,17 +1,18 @@
-import React from 'react'
+import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Banner from './Banner/Banner';
 import About from './About/About';
-
- const App = () => {
+import Card from './Card/Card';
+const App = () => {
   return (
     <div>
-      <Header/>
-      <Banner/>
-			<About/>
-      <Footer/>
+      <Header />
+      <Banner />
+      <About />
+      <Card />
+      <Footer />
     </div>
-    )
-}
+  );
+};
 export default App;

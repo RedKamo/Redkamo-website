@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../styles/About.scss';
 import astronaut1 from '../../assets/images/astronaut1.svg';
-
 import { DiHtml5, DiCss3, DiReact, DiGit, DiSass } from 'react-icons/di';
 import { SiJavascript, SiNextDotJs, SiFigma } from 'react-icons/si';
 
