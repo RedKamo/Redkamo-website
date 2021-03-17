@@ -1,0 +1,19 @@
+@import './global.scss';
+
+.banner{
+    border: 1px solid springgreen;
+
+    &__cover{
+        p{
+            border: 1px solid red;
+            width: 330px;
+            height: 140px;
+            font-size: 32px;
+            line-height: 100%;
+            font-weight: bold;
+        }
+        &__name{
+            color: $red-color;
+        }
+    }
+}

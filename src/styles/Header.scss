@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blue;
+    &__logo{
+        padding: 0 20px;
+        border: 1px solid red;
+        img{
+           width: 100px;
+        }
+    }
+    &__menu{
+        padding: 0 20px;
+        border: 1px solid pink;
+    }
+}

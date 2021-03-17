@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import Banner from './Banner/Banner';
+
 
  const App = () => {
     return (
         <div>
             <Header/>
-            <h1>REDKAMO web portfoio</h1>
+            <Banner/>
             <Footer/>
         </div>
     )

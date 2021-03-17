@@ -1,15 +1,21 @@
 import React from 'react'
 import '../../styles/Header.scss'
-//import l1 from '../../assets/images/logo1.svg'
+import logo1 from '../../assets/images/logo1.svg'
 //import l2 from '../../assets/images/logo2.svg'
 
 
 const Header = () => {
     return (
-        <div className="container">
-            <h1>Header component</h1>
+        <div className="header">
+            <div className="header__logo">
+                <img src={logo1} alt=""/>
+            </div>
+            <div className="header__menu">
+                <p>🍔</p>
+            </div>
         </div>
     )
 }
 
 export default Header
+ 
