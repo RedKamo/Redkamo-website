@@ -4,9 +4,10 @@
   border: 1px solid springgreen;
 
   &__cover{
-		border: 1px solid red;
+		border: 1px solid green;
+		padding: 0 20px;
   	p{
-    	border: 1px solid purple;
+    	border: 1px solid blue;
       width: 330px;
     	height: 140px;
       font-size: 32px;
@@ -18,13 +19,13 @@
 		}
 		&__social{
 			display: inline;
-				img{
-					padding: 0 .5em;
-					width: 35px;
-				}
-				:hover{
-					color: red;
-				}
+			a{
+			font-size: 50px;
+			color: $background-dark;
+			}
+			:hover{
+				color: $red-color;
+			}
 		}
 	}
 }
