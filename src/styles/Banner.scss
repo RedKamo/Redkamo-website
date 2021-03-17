@@ -1,19 +1,30 @@
 @import './global.scss';
 
 .banner{
-    border: 1px solid springgreen;
+  border: 1px solid springgreen;
 
-    &__cover{
-        p{
-            border: 1px solid red;
-            width: 330px;
-            height: 140px;
-            font-size: 32px;
-            line-height: 100%;
-            font-weight: bold;
-        }
-        &__name{
-            color: $red-color;
-        }
+  &__cover{
+		border: 1px solid red;
+  	p{
+    	border: 1px solid purple;
+      width: 330px;
+    	height: 140px;
+      font-size: 32px;
+      line-height: 100%;
+    	font-weight: bold;
     }
+    &__name{
+      color: $red-color;
+		}
+		&__social{
+			display: inline;
+				img{
+					padding: 0 .5em;
+					width: 35px;
+				}
+				:hover{
+					color: red;
+				}
+		}
+	}
 }
