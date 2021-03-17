@@ -1,5 +1,3 @@
-//-- import style components -- 
-
 //-- font --
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 $first-font: 'Archivo', sans-serif;
@@ -9,6 +7,10 @@ $red-color: #FF0032;
 $background-white: #F4F5F7;
 $background-dark: #212121;
 $dark-details: #2C2C2C;
+
+// font size
+$title-size: 32px;
+$mobile-p: 12px;
 
 //-- general css styles --
 body{

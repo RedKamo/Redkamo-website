@@ -5,16 +5,16 @@ import logo1 from '../../assets/images/logo1.svg'
 
 
 const Header = () => {
-    return (
-        <div className="header">
-            <div className="header__logo">
-                <img src={logo1} alt=""/>
-            </div>
-            <div className="header__menu">
-                <p>🍔</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className="header">
+      <div className="header__logo">
+        <img src={logo1} alt=""/>
+      </div>
+      <div className="header__menu">
+        <p>🍔</p>
+      </div>
+    </div>
+  )
 }
 
 export default Header
