@@ -1,0 +1,16 @@
+{
+  "Projects": [
+    {
+      "id": 1,
+      "name": "HPM HACKACTON",
+      "image": "https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png",
+      "year": 2020
+    },
+    {
+      "id": 2,
+      "name": "S/PACE X RECOVERY SHIPS",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/gh.png",
+      "year": 2021
+    }
+  ]
+}
