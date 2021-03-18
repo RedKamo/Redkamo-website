@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../styles/CardProject.scss';
 
 const CardProject = ({ projectName, projectImage, projectYear }) => {
   return (
-    <div>
-      <h1> {projectName} </h1>
+    <div className="card">
       <img src={projectImage} alt="" />
-      <h5> {projectYear} </h5>
+      <h2> {projectName} </h2>
+      <h3> {projectYear} </h3>
     </div>
   );
 };
