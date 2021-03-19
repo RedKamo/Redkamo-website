@@ -5,7 +5,7 @@ import Banner from './Banner/Banner';
 import About from './About/About';
 //import ProjectList from './ProjectList/ProjectList';
 import Projects from './Projects/Projects';
-
+import Contact from './Contact/Contact';
 const App = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const App = () => {
       <Banner />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 };
