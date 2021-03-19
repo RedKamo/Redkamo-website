@@ -7,16 +7,21 @@
     },
     {
       "id": 2,
+      "name": "XHT-Trading web app",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/xht.png"
+    },
+    {
+      "id": 3,
       "name": "PMP project",
       "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/pmp.JPG"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "HPM HACKACTON",
       "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/hpm.JPG"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "S/PACE X RECOVERY SHIPS",
       "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/ship.png"
     }
