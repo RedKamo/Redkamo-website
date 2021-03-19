@@ -9,7 +9,6 @@ const Projects = () => {
       <div className="projects__container">
         <ProjectList />
       </div>
-      <img src={alien} alt="" />
     </div>
   );
 };

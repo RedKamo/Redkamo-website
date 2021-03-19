@@ -2,15 +2,23 @@
   "Projects": [
     {
       "id": 1,
-      "name": "HPM HACKACTON",
-      "image": "https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png",
-      "year": 2020
+      "name": "Sass documentation",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/sassdoc.JPG"
     },
     {
       "id": 2,
+      "name": "PMP project",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/pmp.JPG"
+    },
+    {
+      "id": 3,
+      "name": "HPM HACKACTON",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/hpm.JPG"
+    },
+    {
+      "id": 4,
       "name": "S/PACE X RECOVERY SHIPS",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/ship.png",
-      "year": 2021
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/ship.png"
     }
   ]
 }
