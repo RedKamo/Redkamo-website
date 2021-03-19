@@ -1,13 +1,14 @@
 @import './global.scss';
 
 .banner{
-  border: 1px solid springgreen;
+	//border: 1px solid springgreen;
+	margin-top: 2.5em;
 
   &__cover{
-		border: 1px solid green;
+		//border: 1px solid green;
 		padding: 0 20px;
   	p{
-    	border: 1px solid blue;
+    	//border: 1px solid blue;
       width: 330px;
     	height: 140px;
       font-size: $title-size;
@@ -18,10 +19,14 @@
       color: $red-color;
 		}
 		&__social{
-			display: inline;
+			//border: 1px solid red;
+			margin: 1em 0;
 			a{
-			font-size: 50px;
-			color: $background-dark;
+				//display: flex;
+				width: 50px;
+				font-size: 50px;
+				color: $background-dark;
+				//border: 1px solid blue;
 			}
 			:hover{
 				color: $red-color;
