@@ -1,21 +1,22 @@
-import React from 'react'
-import '../../styles/Header.scss'
-import logo1 from '../../assets/images/logo1.svg'
+import React from 'react';
+import '../../styles/Header.scss';
+import logo1 from '../../assets/images/logo1.svg';
 //import l2 from '../../assets/images/logo2.svg'
-
 
 const Header = () => {
   return (
     <div className="header">
       <div className="header__logo">
-        <img src={logo1} alt=""/>
+        <img src={logo1} alt="" />
       </div>
       <div className="header__menu">
         <p>🍔</p>
+        {/*  <a href="">About</a>
+        <a href="">Portfolio</a>
+        <a href="">Contact</a> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
- 
+export default Header;

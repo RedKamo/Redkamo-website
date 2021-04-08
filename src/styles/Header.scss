@@ -1,18 +1,30 @@
+@import './global.scss';
 .header{
-    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 70px;
+    //min-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     //border: 1px solid blue;
+    
+    a{
+        text-decoration: none;
+        //border: 1px solid red;
+        margin: 0 1em;
+        color: $background-dark;
+        font-weight:600;
+    }
     &__logo{
-        padding: 0 20px;
+        margin: 0 1em;
        // border: 1px solid red;
         img{
            width: 100px;
         }
     }
     &__menu{
-        padding: 0 20px;
+        margin: 0 1em;
        // border: 1px solid pink;
     }
 }

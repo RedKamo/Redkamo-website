@@ -1,21 +1,25 @@
 @import './global.scss';
 
 .banner{
-	//border: 1px solid springgreen;
+	//border: 1px solid purple;
 	margin-top: 2.5em;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: auto;
 
   &__cover{
 		//border: 1px solid green;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		//align-items: center;
 		padding: 0 20px;
   	p{
     	//border: 1px solid blue;
-			width: auto;
-			text-align: center;
+			max-width: auto;
+			text-align: left;
     	//height: 140px;
-      font-size: $title-size;
+      font-size: $small-title-size;
       line-height: 100%;
 			font-weight: bold;
     }
@@ -24,7 +28,7 @@
 		}
 		&__social{
 			//border: 1px solid red;
-			margin: 1em 0;
+			//margin: 1em 0;
 			a{
 				//display: flex;
 				width: 50px;
@@ -34,6 +38,64 @@
 			}
 			:hover{
 				color: $red-color;
+			}
+		}
+	}
+	
+
+}
+
+
+//medias min
+
+@media (max-width: 768px){
+	.banner{
+		&__icon{
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 768px){
+	.banner{
+		padding: 1em 0em;
+		&__cover{
+			width: 60%;
+			p{
+				font-size: $medium-title-size;
+			}
+		}
+		&__icon{
+			width: 40%;
+			//border: 1px solid red;
+			text-align: center;
+			img{
+				width: 60%;
+			
+			}
+		}
+	}
+}
+
+@media(min-width: 1300px ){
+	.banner{
+		margin: 0 auto;
+		max-width: 1400px;
+		display: flex;
+		justify-content: center;
+		
+		justify-content: space-between;
+
+		&__cover{
+			width: 55%;
+			p{
+				font-size: $large-title-font;
+			}
+		}
+		&__icon{
+			
+			img{
+				width: 60%;
 			}
 		}
 	}
