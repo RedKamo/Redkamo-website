@@ -1,12 +1,13 @@
 import React from 'react';
 
 //import Projects from '../../projects.json';
+import '../../styles/ProjectList.scss';
 import data from '../../data.json';
 import CardProject from '../CardProject/CardProject';
 
 const ProjectList = () => {
   return (
-    <div className="cardList">
+    <div className="cardlist">
       {data.Projects.map((project, id) => {
         return (
           <CardProject
@@ -22,13 +23,3 @@ const ProjectList = () => {
 };
 
 export default ProjectList;
-
-/* {pj.map((project) => {
-  return (
-    <div key={project.id}>
-      <h1> {project.name} </h1>
-      <img src={project.image} alt="" />
-      <img src={project.url} alt="" />
-    </div>
-  );
-})} */

@@ -23,9 +23,22 @@
       line-height: 100%;
 			font-weight: bold;
     }
-    &__name{
-      color: $red-color;
-		}	
+    
+			span{
+				color: $red-color;
+				width: 22ch;
+				animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+
+				white-space: nowrap;
+				overflow: hidden;
+			}
+			@keyframes animated-text{
+				from{width: 0;}
+				to{width: 472px;}
+			}
+			
+		
 	}
 
 	&__social{

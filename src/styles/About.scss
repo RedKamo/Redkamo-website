@@ -1,9 +1,12 @@
 @import './global.scss';
 
 .about{
+  width: 100%;
   //border-top: 1px solid $red-color;
+  background-color: $background-dark;
   padding-top: 2em;
   h1{
+    color: $background-white;
     text-align: center;
     font-size: calc(1vw + 1vh + 2.5vmin);
   }
@@ -15,6 +18,7 @@
     font-size: calc(1vw + 1vh + 0.5vmin);
     text-align: justify;
     line-height: 140%;
+    color: $background-white;
     img{
       margin: 0 auto;
       padding-top: 2em;
@@ -26,9 +30,14 @@
 
   &__skills{
     //border: 1px solid gold;
-    margin-top: 3em;
+    background-color: $red-color;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 5em;
+    padding-bottom: 2em;
     width: auto;
+    
     h1{
+      color: $background-white;
       text-align: center;
       font-size: calc(1vw + 1vh + 2.5vmin);
     }
@@ -36,36 +45,49 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      //width: 100%;
-      font-size:calc(1em + 1vh + 8vmin);
+      text-align: center;
       //border: 1px solid blue;
-      margin: 0 20px;
+      padding-top: 2em;
       
+    }
+    &__icon{
       span{
-        margin: 10px 10px;
+        font-size:calc(1em + 1vh + 8vmin);
+        margin: 0px 10px;
         color: $background-dark;
         //border: 1px solid red;
       }
       :hover{
-        color: $red-color;
+        color: $background-white;
+      }
+      p{
+        visibility: hidden;
+        margin-top: -5px;
+        color: $background-white;
+        
+      }
+      span:hover + p {
+        display: block;
+        visibility: visible;
       }
     }
   }
+
   
 }
 @media(min-width: 1024px ){
 	.about{
     margin: 0 auto;
-		max-width: 1300px;
+		
     &__me{
       margin: 0 auto;
+      max-width: 1300px;
     }
   }
 }
 @media(min-width: 1024px ){
 	.about{
     margin: 0 auto;
-		max-width: 1300px;
     &__me{
       img{
         margin: 0 auto;
