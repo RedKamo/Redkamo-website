@@ -15,6 +15,8 @@ const ProjectList = () => {
             projectName={project.name}
             projectImage={project.image}
             projectYear={project.year}
+            projectUrl={project.url}
+            projectDemo={project.demo}
           />
         );
       })}
