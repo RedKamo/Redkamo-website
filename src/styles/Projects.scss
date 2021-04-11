@@ -1,3 +1,5 @@
+@import './global.scss';
+
 .projects{
   margin-top: 3em;
   //border: 1px solid red;
@@ -13,7 +15,11 @@
     width: 100%;
   }
   &__up{
-    margin-top: -3.9px;
+    //background-color: $red-color;
+    //clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+
+    //margin-top: -3.9px;
     //border: 1px solid red;
+   // visibility: hidden;
   }
 }

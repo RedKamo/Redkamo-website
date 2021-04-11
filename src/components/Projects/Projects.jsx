@@ -10,8 +10,8 @@ const Projects = () => {
       <div className="projects__container">
         <ProjectList />
       </div>
-      <img src={alien} alt="" />
-      <img className="projects__up" src={alienb} alt="" />
+      {/* <img src={alien} alt="" />
+      <img className="projects__up" src={alienb} alt="" /> */}
     </div>
   );
 };
