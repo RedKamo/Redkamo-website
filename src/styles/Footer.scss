@@ -1,12 +1,12 @@
 @import './global.scss';
 
 .footer{
-  background-color: $background-dark;
+  background-color: $red-color;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -8px;
+  //margin-top: -8px;
 
   p{
     margin: 0;

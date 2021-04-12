@@ -2,17 +2,22 @@
 
 .contact{
   width: 100%;
-  //border: 1px solid blue;
+  //border: 1px solid yellow;
   background-color: $background-dark;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: $background-white;
-  
+  h1{
+    text-align: center;
+    font-size: calc(1vw + 1vh + 2.5vmin);
+    padding-top: 1em;
+  }
   &__details{
     text-align: center;
     //border: 1px solid red;
-    padding: 1em 0;
+    padding: 0;
+    font-size: calc(1vw + 1vh + 0.5vmin);
   }
 
   &__social{
@@ -21,8 +26,8 @@
     a{
       //display: flex;
       width: 50px;
-      font-size: 50px;
-      color: $background-dark;
+      font-size: 80px;
+      color: $background-white;
       //border: 1px solid blue;
     }
     :hover{
@@ -31,7 +36,10 @@
   }
 
   &__image{
+    //border: 1px solid springgreen;
+    //padding: 1em 0;
     img{
+      padding-bottom: 2em;
       width: 100%;
     }
   }
