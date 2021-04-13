@@ -15,6 +15,10 @@
         margin: 0 1em;
         color: $background-dark;
         font-weight:600;
+        cursor: pointer;
+    }
+    a:hover{
+        color: $red-color;
     }
     &__logo{
         margin: 0 1em;

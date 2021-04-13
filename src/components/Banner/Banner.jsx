@@ -6,6 +6,7 @@ import {
 } from 'react-icons/ti';
 import '../../styles/Banner.scss';
 import white_icon from '../../assets/images/white_icon.svg';
+import bannerimage from '../../assets/figma/bannerimg.gif';
 
 const Banner = () => {
   return (
@@ -17,7 +18,7 @@ const Banner = () => {
           <br /> Frontend developer and UI/UX enthusiast.
         </p>
         <div className="banner__cover__icon">
-          <img src={white_icon} alt="" />
+          <img src={bannerimage} alt="" />
         </div>
       </div>
       <div className="banner__social">

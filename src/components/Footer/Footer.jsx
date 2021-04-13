@@ -3,7 +3,7 @@ import '../../styles/Footer.scss';
 const Footer = () => {
   return (
     <div className="footer">
-      <p>Designed and developed by RedKamo 👨🏾‍🚀</p>
+      <p>Designed and developed by RedKamo 👨🏾‍🚀🚀</p>
     </div>
   );
 };

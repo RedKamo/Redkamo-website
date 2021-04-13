@@ -11,8 +11,11 @@ const Contact = () => {
     <div className="contact">
       <h1>Contact</h1>
       <div className="contact__details">
-        <h3>Im always up for chat</h3>
-        <p>Pop me an email at @kamo or give me a shout on social media.</p>
+        <h3>I'm always up for chat</h3>
+        <p>
+          Send me an email at hi@redkamo.com <br /> or give me a shout on social
+          media.
+        </p>
       </div>
       <div className="contact__social">
         <a href="https://github.com/RedKamo" target="_blank">

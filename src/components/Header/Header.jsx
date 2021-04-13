@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import '../../styles/Header.scss';
 import logo1 from '../../assets/images/logo1.svg';
+
 //import l2 from '../../assets/images/logo2.svg'
 
 const Header = () => {
@@ -10,10 +12,16 @@ const Header = () => {
         <img src={logo1} alt="" />
       </div>
       <div className="header__menu">
-        <p>🍔</p>
-        {/*  <a href="">About</a>
-        <a href="">Portfolio</a>
-        <a href="">Contact</a> */}
+        <Link to="about" smooth={true} hashSpy={true} duration={500}>
+          About
+        </Link>
+        <Link to="projects" smooth={true} hashSpy={true} duration={500}>
+          Projects
+        </Link>
+        <Link to="contact" smooth={true} hashSpy={true} duration={500}>
+          Contact
+        </Link>
+        {/* <p>🍔</p> */}
       </div>
     </div>
   );
