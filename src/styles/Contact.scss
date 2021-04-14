@@ -18,6 +18,28 @@
     //border: 1px solid red;
     padding: 0;
     font-size: calc(1vw + 1vh + 0.5vmin);
+    a{
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      color: $red-color;
+    }
+    a:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: $red-color;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    a:hover:after{
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
   }
 
   &__social{

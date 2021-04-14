@@ -13,8 +13,11 @@ const Contact = () => {
       <div className="contact__details">
         <h3>I'm always up for chat</h3>
         <p>
-          Send me an email at hi@redkamo.com <br /> or give me a shout on social
-          media.
+          Send me an email at{' '}
+          <a href="mailto:hello@redkamo.com">
+            <span>hello@redkamo.com</span>
+          </a>{' '}
+          <br /> or give me a shout on social media.
         </p>
       </div>
       <div className="contact__social">
