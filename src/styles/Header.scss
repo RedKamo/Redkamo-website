@@ -21,14 +21,15 @@
         color: $red-color;
     }
     &__logo{
-        margin: 0 1em;
+        margin: 0 0.5em;
        // border: 1px solid red;
         img{
            width: 100px;
+           height: auto;
         }
     }
     &__menu{
-        margin: 0 1em;
+        margin: 0 em;
        // border: 1px solid pink;
     }
 }

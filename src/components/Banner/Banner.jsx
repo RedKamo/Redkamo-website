@@ -5,8 +5,7 @@ import {
   TiSocialGithubCircular
 } from 'react-icons/ti';
 import '../../styles/Banner.scss';
-import white_icon from '../../assets/images/white_icon.svg';
-import bannerimage from '../../assets/figma/bannerimg.gif';
+import astronaut from '../../assets/images/bannerimg.gif';
 
 const Banner = () => {
   return (
@@ -18,7 +17,7 @@ const Banner = () => {
           <br /> Frontend developer and UI/UX enthusiast.
         </p>
         <div className="banner__cover__icon">
-          <img src={bannerimage} alt="" />
+          <img src={astronaut} alt="" />
         </div>
       </div>
       <div className="banner__social">
