@@ -3,33 +3,33 @@
     {
       "id": 1,
       "name": "Sass documentation",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/sassdoc.JPG",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/sassdoc.JPG",
       "url": "https://github.com/RedKamo/Technical-Documentation-Page",
       "demo": "https://redkamo.github.io/Technical-Documentation-Page/"
     },
     {
       "id": 2,
       "name": "XHT-Trading web app",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/xht.png",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/xht.png",
       "url": "https://github.com/Extreme-High-Tradding/XHT_FRONTEND",
       "demo": "https://xht-frontend.herokuapp.com/"
     },
     {
       "id": 3,
       "name": "PMP project",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/pmp.JPG",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/pmp.JPG",
       "url": "https://github.com/SWAT-PMP-Master/PMP-Front-End"
     },
     {
       "id": 4,
       "name": "HPM Hackacton",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/hpm.JPG",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/hpm.JPG",
       "url": "https://github.com/HPM-MASSIMO-MasterPath/Frontend"
     },
     {
       "id": 5,
       "name": "SpaceX - ships",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/figma/ship.png",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/ship.png",
       "url": "https://github.com/RedKamo/spaceXships",
       "demo": "https://space-xships.vercel.app/"
     }
