@@ -16,3 +16,10 @@ const Projects = () => {
 };
 
 export default Projects;
+
+//figma
+
+// XHT = https://www.figma.com/file/vMD2W41ZmfQh121BB8EeKu/Extreme-High-Tradding-Colors
+//HPM = https://www.figma.com/file/RigopSj8cL0mvxJuDauA00/HPM
+//PMP = https://www.figma.com/file/AekDtEQBamSYDTGKX0vWaq/pmp-mockups-Colors
+//POVITY = https://www.figma.com/file/vnnlVej750HUo4aptpgxcf/Povity */
