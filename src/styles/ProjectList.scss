@@ -1,5 +1,5 @@
 .cardlist{
-  border: 1px solid red;
+  //border: 1px solid orange;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   max-width: 1300px;
@@ -7,4 +7,5 @@
   grid-gap: 1.5em;
   justify-items: center;
   padding-bottom: 2em;
+ 
 }

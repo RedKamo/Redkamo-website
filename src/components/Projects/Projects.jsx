@@ -10,8 +10,8 @@ const Projects = () => {
       <h1>Projects </h1>
 
       <div className="projects__container">
-        <div className="project__container__nv">
-          <Router>
+        <Router>
+          <div className="projects__container__menu">
             <li>
               <Link to="/">Projects</Link>
             </li>
@@ -21,13 +21,15 @@ const Projects = () => {
             <li>
               <Link to="/codepenList">Codepen</Link>
             </li>
+          </div>
 
+          <div className="projects__container__render">
             <Switch>
               <Route exact path="/" component={ProjectList} />
               <Route path="/figmaList" component={FigmaList} />
             </Switch>
-          </Router>
-        </div>
+          </div>
+        </Router>
       </div>
     </div>
   );

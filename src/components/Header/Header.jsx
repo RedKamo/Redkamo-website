@@ -12,12 +12,12 @@ const Header = () => {
         <img src={logo1} alt="" />
       </div>
       <div className="header__menu">
-        <Link to="about" smooth={true} hashSpy={true} duration={500}>
+        {/* <Link to="about" smooth={true} hashSpy={true} duration={500}>
           About
         </Link>
         <Link to="projects" smooth={true} hashSpy={true} duration={500}>
           Projects
-        </Link>
+        </Link> */}
         <Link to="contact" smooth={true} hashSpy={true} duration={500}>
           Contact
         </Link>

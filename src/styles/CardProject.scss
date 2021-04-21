@@ -11,6 +11,8 @@
   
   border-radius: 5px;
   padding: 0.3em;
+  box-shadow:  20px 20px 60px #cfd0d2,
+             -20px -20px 60px #ffffff;
   
   img{
     border-radius: 5px 5px 0 0 ;
@@ -31,6 +33,7 @@
     //flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    transition-duration: 6s, 4s;
     p{
       margin: 0.5em;
       color: $background-white;
