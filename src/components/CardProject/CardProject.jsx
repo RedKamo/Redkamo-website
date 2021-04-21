@@ -4,7 +4,6 @@ import '../../styles/CardProject.scss';
 const CardProject = ({
   projectName,
   projectImage,
-  projectYear,
   projectUrl,
   projectDemo
 }) => {

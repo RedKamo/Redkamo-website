@@ -1,27 +1,36 @@
 import React from 'react';
+import { Switch, Link, Route, BrowserRouter as Router } from 'react-router-dom';
 import ProjectList from '../ProjectList/ProjectList';
+import FigmaList from '../FigmaList/FigmaList';
 import '../../styles/Projects.scss';
 
 const Projects = () => {
   return (
     <div className="projects">
       <h1>Projects </h1>
+
       <div className="projects__container">
-        <ProjectList />
+        <div className="project__container__nv">
+          <Router>
+            <li>
+              <Link to="/">Projects</Link>
+            </li>
+            <li>
+              <Link to="/figmaList">Wireframes</Link>
+            </li>
+            <li>
+              <Link to="/codepenList">Codepen</Link>
+            </li>
+
+            <Switch>
+              <Route exact path="/" component={ProjectList} />
+              <Route path="/figmaList" component={FigmaList} />
+            </Switch>
+          </Router>
+        </div>
       </div>
-      {/* <img src={alien} alt="" />
-      <img className="projects__up" src={alienb} alt="" /> */}
     </div>
   );
 };
 
 export default Projects;
-
-//testing feature/routing branch configuration
-
-//figma
-
-// XHT = https://www.figma.com/file/vMD2W41ZmfQh121BB8EeKu/Extreme-High-Tradding-Colors
-//HPM = https://www.figma.com/file/RigopSj8cL0mvxJuDauA00/HPM
-//PMP = https://www.figma.com/file/AekDtEQBamSYDTGKX0vWaq/pmp-mockups-Colors
-//POVITY = https://www.figma.com/file/vnnlVej750HUo4aptpgxcf/Povity */
