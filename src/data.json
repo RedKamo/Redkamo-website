@@ -38,24 +38,25 @@
     {
       "id": 1,
       "name": "XHT-Trading",
-      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/ship.png",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/figmaxht.JPG",
       "url": "https://www.figma.com/file/vMD2W41ZmfQh121BB8EeKu/Extreme-High-Tradding-Colors"
     },
     {
       "id": 2,
       "name": "PMP project",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/figmapmp.JPG",
       "url": "https://www.figma.com/file/AekDtEQBamSYDTGKX0vWaq/pmp-mockups-Colors"
     },
     {
       "id": 3,
       "name": "HPM Hackacton",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/figmahpm.JPG",
       "url": "https://www.figma.com/file/RigopSj8cL0mvxJuDauA00/HPM"
     },
     {
       "id": 4,
       "name":"Povity",
+      "image":"https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/figmapovity.JPG",
       "url": "https://www.figma.com/file/vnnlVej750HUo4aptpgxcf/Povity"
     }
   ]
