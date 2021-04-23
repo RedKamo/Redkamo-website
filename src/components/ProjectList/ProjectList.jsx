@@ -17,6 +17,7 @@ const ProjectList = () => {
             projectYear={project.year}
             projectUrl={project.url}
             projectDemo={project.demo}
+            projectIcon={project.icon}
           />
         );
       })}

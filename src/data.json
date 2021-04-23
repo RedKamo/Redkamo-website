@@ -5,7 +5,8 @@
       "name": "Sass documentation",
       "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/master/src/assets/images/sassdoc.JPG",
       "url": "https://github.com/RedKamo/Technical-Documentation-Page",
-      "demo": "https://redkamo.github.io/Technical-Documentation-Page/"
+      "demo": "https://redkamo.github.io/Technical-Documentation-Page/",
+      "icon": ["HTML", "CSS"]
     },
     {
       "id": 2,
