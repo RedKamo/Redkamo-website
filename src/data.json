@@ -65,28 +65,28 @@
       "id": 1,
       "name": "Simpsons news",
       "challenge": "Platzi CSS challenge",
-      "img": "",
+      "img": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/codepen1.JPG",
       "url": "https://codepen.io/KamoSuarez/full/zYNaRNy"
     },
     {
       "id": "2",
       "name": "Personal Portfolio",
       "challenge": "Freecodecamp Portfolio challenge",
-      "img": "",
+      "img": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/codepen2.JPG",
       "url": "https://codepen.io/KamoSuarez/full/YzKxooj"
     },
     {
       "id":"3",
       "name": "Product landing page",
       "challenge": "Freecodecamp Landing page challenge",
-      "img":"",
+      "img":"https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/codepen3.JPG",
       "url":"https://codepen.io/KamoSuarez/full/aeqZxj"
     },
     {
       "id":"4",
       "name": "Form",
       "challenge":"Freecodecamp Survey form challenge",
-      "img":"",
+      "img":"https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/codepen4.JPG",
       "url":"https://codepen.io/KamoSuarez/full/pMdMbK"
     }
   ]

@@ -15,7 +15,9 @@ const CodepenCard = ({
         <h2>{codepenName}</h2>
         <p>{codepenChallenge}</p>
         <div className="card__info__link">
-          <a href={codepenUrl}>Pen</a>
+          <a href={codepenUrl} target="_blank">
+            Pen
+          </a>
         </div>
       </div>
     </div>
