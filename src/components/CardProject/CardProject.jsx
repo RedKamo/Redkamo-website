@@ -6,14 +6,14 @@ const CardProject = ({
   projectImage,
   projectUrl,
   projectDemo,
-  projectIcon
+  projectInfo
 }) => {
   return (
     <div className="card">
       <img src={projectImage} alt="" />
       <div className="card__info">
         <h2>{projectName}</h2>
-        <div>{projectIcon}</div>
+        <p>{projectInfo}</p>
         <div className="card__info__link">
           <a href={projectUrl} target="_blank">
             Github
