@@ -37,7 +37,7 @@
   "Wireframes": [
     {
       "id": 1,
-      "name": "XHT-Trading",
+      "name": "XHT-Trading web app",
       "image": "https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/figmaxht.JPG",
       "url": "https://www.figma.com/file/vMD2W41ZmfQh121BB8EeKu/Extreme-High-Tradding-Colors"
     },
@@ -58,6 +58,36 @@
       "name":"Povity",
       "image":"https://raw.githubusercontent.com/RedKamo/Redkamo-website/feature/routing/src/assets/images/figmapovity.JPG",
       "url": "https://www.figma.com/file/vnnlVej750HUo4aptpgxcf/Povity"
+    }
+  ],
+  "Codepen": [
+    {
+      "id": 1,
+      "name": "Simpsons news",
+      "challenge": "Platzi CSS challenge",
+      "img": "",
+      "url": "https://codepen.io/KamoSuarez/full/zYNaRNy"
+    },
+    {
+      "id": "2",
+      "name": "Personal Portfolio",
+      "challenge": "Freecodecamp Portfolio challenge",
+      "img": "",
+      "url": "https://codepen.io/KamoSuarez/full/YzKxooj"
+    },
+    {
+      "id":"3",
+      "name": "Product landing page",
+      "challenge": "Freecodecamp Landing page challenge",
+      "img":"",
+      "url":"https://codepen.io/KamoSuarez/full/aeqZxj"
+    },
+    {
+      "id":"4",
+      "name": "Form",
+      "challenge":"Freecodecamp Survey form challenge",
+      "img":"",
+      "url":"https://codepen.io/KamoSuarez/full/pMdMbK"
     }
   ]
 }

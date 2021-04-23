@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Link, Route, BrowserRouter as Router } from 'react-router-dom';
 import ProjectList from '../ProjectList/ProjectList';
 import FigmaList from '../FigmaList/FigmaList';
+import CodepenList from '../CodepenList/CodepenList';
 import '../../styles/Projects.scss';
 
 const Projects = () => {
@@ -16,17 +17,18 @@ const Projects = () => {
               <Link to="/">Projects</Link>
             </li>
             <li>
-              <Link to="/figmaList">Wireframes</Link>
+              <Link to="/figma">Wireframes</Link>
             </li>
             <li>
-              <Link to="/codepenList">Codepen</Link>
+              <Link to="/codepen">Codepen</Link>
             </li>
           </div>
 
           <div className="projects__container__render">
             <Switch>
               <Route exact path="/" component={ProjectList} />
-              <Route path="/figmaList" component={FigmaList} />
+              <Route path="/figma" component={FigmaList} />
+              <Route path="/codepen" component={CodepenList} />
             </Switch>
           </div>
         </Router>

@@ -5,9 +5,9 @@ const FigmaCard = ({ wireframeName, wireframeImage, wireframeUrl }) => {
   return (
     <div className="card">
       <img src={wireframeImage} />
-      <div className="card__details">
-        <p>{wireframeName}</p>
-        <div className="card__details__link">
+      <div className="card__info">
+        <h2>{wireframeName}</h2>
+        <div className="card__info__link">
           <a href={wireframeUrl} target="_blank">
             Figma
           </a>

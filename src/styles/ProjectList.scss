@@ -1,11 +1,11 @@
 .cardlist{
   //border: 1px solid orange;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  max-width: 1300px;
+  grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+  max-width: 1100px;
   margin: 0 auto;
-  grid-gap: 1.5em;
+  grid-gap: 5em;
   justify-items: center;
-  padding-bottom: 2em;
+  padding: 2em 6em 7em;
  
 }

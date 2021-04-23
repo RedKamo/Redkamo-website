@@ -4,7 +4,7 @@
   width: 280px;
   height: 360px;
   border-radius: 15px;
-  background: green;
+  background: $background-white;
   position: relative;
   //align-items: flex-end;
   transition: 0.2s ease-out;
@@ -13,7 +13,7 @@
   &:hover{
     transform: translateY(5px); //card movement;
     img{
-      filter: grayscale(100%);
+     // filter: grayscale(100%);
     }
     &:before{
       opacity: 1;
@@ -54,6 +54,7 @@
     top:0;
     left: 0;
     border-radius: 15px;
+
   }
   &__info{
     width: 100%;
@@ -79,6 +80,11 @@
       background-color: $background-dark;
       transition: 0.5s;
       
+    }
+    p{
+      font-size: 20px;
+      text-align: center;
+      padding: 0 1em;
     }
     &__techs{
       border: 1px solid red;
@@ -107,7 +113,7 @@
         cursor: pointer;
       }
       a:hover{
-        background-color: $red-color;
+        background-color: $background-dark;
         color: $background-white;
       }
     }
